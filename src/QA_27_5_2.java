@@ -26,5 +26,6 @@ public class QA_27_5_2 {
             }
         }
         System.out.println("Maximum value of the array is: " + maxValue);
+        scanner.close();
     }
 }

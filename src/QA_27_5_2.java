@@ -12,5 +12,11 @@ public class QA_27_5_2 {
             array [i] = scanner.nextInt();
         }
         System.out.println(Arrays.toString(array));
+
+        double averageValue = 0;
+        for (int i = 0; i < array.length; i++) {
+            averageValue += (double) array[i] / array.length;
+        }
+        System.out.println("Average value of the array is: " + averageValue);
     }
 }
